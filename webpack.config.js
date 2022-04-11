@@ -182,10 +182,6 @@ function getConfig(options = {}) {
                         expandProps: 'start'
                     }
                 } ]
-            }, {
-                test: /\.tsx?$/,
-                exclude: /node_modules/,
-                loader: 'ts-loader'
             } ]
         },
         node: {
@@ -221,10 +217,6 @@ function getConfig(options = {}) {
             ],
             extensions: [
                 '.web.js',
-
-                // Typescript:
-                '.tsx',
-                '.ts',
 
                 // Webpack defaults:
                 '.js',

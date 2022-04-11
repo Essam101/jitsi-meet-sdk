@@ -51,20 +51,11 @@ public class JitsiMeetOngoingConferenceService extends Service
         intent.setAction(Action.START.getName());
 
         ComponentName componentName;
-
-        try {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                componentName = context.startForegroundService(intent);
-            } else {
-                componentName = context.startService(intent);
-            }
-        } catch (RuntimeException e) {
-            // Avoid crashing due to ForegroundServiceStartNotAllowedException (API level 31).
-            // See: https://developer.android.com/guide/components/foreground-services#background-start-restrictions
-            JitsiMeetLogger.w(TAG + " Ongoing conference service not started", e);
-            return;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            componentName = context.startForegroundService(intent);
+        } else {
+            componentName = context.startService(intent);
         }
-
         if (componentName == null) {
             JitsiMeetLogger.w(TAG + " Ongoing conference service not started");
         }

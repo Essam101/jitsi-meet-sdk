@@ -7,8 +7,7 @@ import {
 import { NOTIFICATION_TIMEOUT_TYPE, showErrorNotification, showNotification } from '../../notifications';
 import { getCurrentConference } from '../conference';
 import { getMultipleVideoSupportFeatureFlag, getSourceNameSignalingFeatureFlag } from '../config';
-import { JitsiTrackErrors, JitsiTrackEvents } from '../lib-jitsi-meet';
-import { createLocalTrack } from '../lib-jitsi-meet/functions';
+import { JitsiTrackErrors, JitsiTrackEvents, createLocalTrack } from '../lib-jitsi-meet';
 import {
     CAMERA_FACING_MODE,
     MEDIA_TYPE,

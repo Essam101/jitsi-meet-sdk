@@ -435,7 +435,7 @@
     "lockRoomPassword": "password",
     "lockRoomPasswordUppercase": "Password",
     "lonelyMeetingExperience": {
-        "button": "Invite others",
+        "button": "Invite others eg school",
         "youAreAlone": "You are the only one in the meeting"
     },
     "me": "me",

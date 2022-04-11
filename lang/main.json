@@ -31,7 +31,6 @@
     },
     "audioDevices": {
         "bluetooth": "Bluetooth",
-        "car": "Car Audio",
         "headphones": "Headphones",
         "none": "No audio devices available",
         "phone": "Phone",
@@ -612,7 +611,7 @@
     "lockRoomPassword": "password",
     "lockRoomPasswordUppercase": "Password",
     "lonelyMeetingExperience": {
-        "button": "Invite others",
+        "button": "Invite others eg school",
         "youAreAlone": "You are the only one in the meeting"
     },
     "me": "me",
@@ -1092,7 +1091,7 @@
         "giphy": "Toggle GIPHY menu",
         "hangup": "Leave the meeting",
         "help": "Help",
-        "invite": "Invite people",
+        "invite": "Invite people  eg school" ,
         "joinBreakoutRoom": "Join breakout room",
         "laugh": "Laugh",
         "leaveBreakoutRoom": "Leave breakout room",
@@ -1131,7 +1130,7 @@
         "reactionSurprised": "Send surprised reaction",
         "security": "Security options",
         "selectBackground": "Select background",
-        "shareRoom": "Invite someone",
+        "shareRoom": "Invite someone  eg school" ,
         "shareaudio": "Share audio",
         "sharedvideo": "Share video",
         "shortcuts": "View shortcuts",
@@ -1254,7 +1253,7 @@
     "welcomepage": {
         "accessibilityLabel": {
             "join": "Tap to join",
-            "roomname": "Enter room name"
+            "roomname": "Enter room name Essam saleh"
         },
         "addMeetingName": "Add Meeting name",
         "appDescription": "Go ahead, video chat with the whole team. In fact, invite everyone you know. {{app}} is a fully encrypted, 100% open source video conferencing solution that you can use all day, every day, for free — with no account needed.",
